@@ -1,0 +1,19 @@
+{
+  "source": "UCI Machine Learning Repository \u2014 Default of Credit Card Clients",
+  "source_url": "https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients",
+  "sha256_raw_dataset": "30c6be3abd8dcfd3e6096c828bad8c2f011238620f5369220bd60cfc82700933",
+  "rows": 30000,
+  "features": 23,
+  "default_rate": 0.2212,
+  "train_rows": 18000,
+  "calibration_rows": 6000,
+  "test_rows": 6000,
+  "random_seed": 42,
+  "calibration_method": "sigmoid",
+  "threshold": 0.5,
+  "notes": [
+    "Random stratified split, not a temporal split: use only for a baseline project.",
+    "Dataset is historical and from Taiwan; it is not a current lending population.",
+    "Threshold 0.5 is a reporting convention, not an optimal lending decision threshold."
+  ]
+}
